@@ -25,9 +25,11 @@ Project/
 
 ## **3\. Setup & Installation**
 ### **Option 1: Local Setup**
+
 1. Clone or download this repository
 2. Navigate to Code & Data directory
 3. Install the required dependencies
+(It is recommended that you create a virtual environment to install the dependencies into)
    ```pip install -r requirements.txt```
 4. Launch Jupyter Notebook:
    ```jupyter notebook "AvocadoPrices.ipynb"```
