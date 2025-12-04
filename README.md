@@ -57,7 +57,7 @@ The project relies on the following libraries; See "requirements.txt" for exact 
    to ensure a consistent, high-volume time series.
    * **Frequency:** Data is aggregated on a weekly basis
    * **Stationarity:** The raw price was non-stationary; a first-order difference (*d* = 1) was applied to stablize the mean.
-### **Forecasting Methodology (crucial note)**
+### **Forecasting Methodology**
 A portion of this project focuses on the difference between *Static* and *Rolling* forecasts
    * **Static Forecast:** Training on data up to 2017 and predicting the next 25 weeks blindly (base run for Prophet)
    * **Rolling Forecast(One-Step-Ahead):** The model predicts one week (i + 1), learns the actual value from that week, re-trains, and then predicts i + 2.
